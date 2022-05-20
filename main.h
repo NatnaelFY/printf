@@ -1,12 +1,15 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+#include <stdlib.h>
 #include <stdarg.h>
 /**
  * struct print - structure for printing various types
  * @t: type to print
  * @f: function to print
  */
+ 
+
 typedef struct print
 {
 	char *t;
@@ -29,4 +32,4 @@ int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
 
-#endif  /* Iho Chike S */
+#endif  
